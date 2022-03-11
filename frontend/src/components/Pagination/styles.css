@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(#000);
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .dsmovie-pagination-button:disabled {
-    border: 1px solid #000;
+    border: 1px solid #c2c2c2;
     cursor: unset;
 }
 

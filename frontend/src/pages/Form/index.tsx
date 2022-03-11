@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Form() {
 
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
+        image: "https://feriasdecinema.com/wp-content/uploads/2017/04/breaking-bad-capa.jpg",
+        title: "Breaking Bad",
         count: 2,
         score: 4.5
     };
@@ -31,10 +32,12 @@ function Form() {
                         </select>
                     </div>
                     <div className="dsmovie-form-btn-container">
-                        <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
+                        <button type="submit" className="btn btn-warning dsmovie-btn">Salvar</button>
                     </div>
                 </form >
-                <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                <Link to="/">
+                    <button className="btn btn-warning dsmovie-btn mt-3">Cancelar</button>
+                </Link>
             </div >
         </div >
     );
