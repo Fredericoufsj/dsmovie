@@ -5,8 +5,8 @@ function MovieCard() {
 
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
+        image: "https://feriasdecinema.com/wp-content/uploads/2017/04/breaking-bad-capa.jpg",
+        title: "Breaking Bad",
         count: 2,
         score: 4.5
     };
