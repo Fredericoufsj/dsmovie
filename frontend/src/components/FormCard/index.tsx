@@ -49,7 +49,7 @@ function FormCard({movieId}:Props) {
 
         axios(config).then(response=>{            
             navigate("/");
-        })
+        });
 
     }
     
