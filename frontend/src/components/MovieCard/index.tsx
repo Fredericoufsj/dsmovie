@@ -1,16 +1,15 @@
+import { type } from "@testing-library/user-event/dist/type";
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import { Movie } from "types/movie";
+
+type Props = {
+    movie : Movie;
+}
+
+function MovieCard({movie}: Props) {
 
 
-function MovieCard() {
-
-    const movie = {
-        id: 1,
-        image: "https://feriasdecinema.com/wp-content/uploads/2017/04/breaking-bad-capa.jpg",
-        title: "Breaking Bad",
-        count: 2,
-        score: 4.5
-    };
 
     return (
         <div>
