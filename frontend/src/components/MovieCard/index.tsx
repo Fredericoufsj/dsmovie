@@ -1,4 +1,4 @@
-import { type } from "@testing-library/user-event/dist/type";
+
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
 import { Movie } from "types/movie";
@@ -16,7 +16,7 @@ function MovieCard({movie}: Props) {
             <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
-                <MovieScore />
+                <MovieScore count={movie.count} score={movie.score} />
                 <Link to={`/form/${movie.id}`}>
                     <div className="btn btn-warning dsmovie-btn">Avaliar</div>
 

@@ -20,7 +20,7 @@ function FormCard({movieId}:Props) {
         .then(response => {
             setMovie(response.data)
         });
-    })
+    }, [movieId]);
     
     return (
         <div className="dsmovie-form-container">
