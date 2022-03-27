@@ -1,4 +1,4 @@
-<h1>  🚀 FTSMovie </h1> 
+<h1>  🚀 DSMovie </h1> 
 
 <p>Projeto desenvolvido durante a semana spring dada pelo DevSuperior.</p>
 <p> O projeto consiste na criação de uma página de avaliação de filmes.</p>
