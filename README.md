@@ -1,8 +1,8 @@
-# dsmovie<h1>  🚀 Consumindo a Api da Marvel </h1> 
+<h1>  🚀 FTSMovie </h1> 
 
 <p>Projeto desenvolvido durante a semana spring dada pelo DevSuperior.</p>
 <p> O projeto consiste na criação de uma página de avaliação de filmes.</p>
-<p> </p>
+<p> Nessa ferramenta é possível inserir, atualizar, deletar avaliações sobre filmes. </p>
 
  <h2>🛠 Linguagens e Ferramentas:</h2>
 <ul><li>Java</li>
